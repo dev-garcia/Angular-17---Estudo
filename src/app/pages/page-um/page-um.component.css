@@ -1,3 +1,7 @@
 body {
-  background-color: #3e3e3e;
+  background-color: yellow;
+}
+
+.titulo {
+  font-size: 96px;
 }

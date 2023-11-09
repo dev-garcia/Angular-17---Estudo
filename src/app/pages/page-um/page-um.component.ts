@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -8,4 +8,8 @@ import { CommonModule } from '@angular/common';
   templateUrl: './page-um.component.html',
   styleUrl: './page-um.component.css',
 })
-export class PageUmComponent {}
+export class PageUmComponent implements OnInit {
+  constructor() {}
+
+  ngOnInit(): void {}
+}

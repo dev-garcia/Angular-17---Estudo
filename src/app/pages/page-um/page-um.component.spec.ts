@@ -8,10 +8,9 @@ describe('PageUmComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PageUmComponent]
-    })
-    .compileComponents();
-    
+      imports: [PageUmComponent],
+    }).compileComponents();
+
     fixture = TestBed.createComponent(PageUmComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
