@@ -6,8 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './page-um.component.html',
-  styleUrl: './page-um.component.css'
+  styleUrl: './page-um.component.css',
 })
-export class PageUmComponent {
-
-}
+export class PageUmComponent {}

@@ -2,26 +2,20 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
 
+Esta versão eu não configurei com SSR, mas por ser um dev next e adorar as vantagens do SSR, iriei criar outro repositório e citar as melhorias e vantagens.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Mudanças Notáveis na estrutura
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Não temos mais o arquivo principal de modulos, o que altera grande parte da estrutura e a forma que trabalhamos com Angular.
 
-## Build
+O arquivo de rotas foi renomeado, mas continua da mesma forma.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+O tempo de compilação está muito mais rápido.
 
-## Running unit tests
+## Este repositório é livre e aberto para contribuições
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Se você é um desenvolvedor e tem interesse em adicionar/melhorar uma seção de aprendizado e mudanças, você é mais que bem vindo!

@@ -6,8 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './page-quatro.component.html',
-  styleUrl: './page-quatro.component.css'
+  styleUrl: './page-quatro.component.css',
 })
-export class PageQuatroComponent {
-
-}
+export class PageQuatroComponent {}
