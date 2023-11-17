@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
+import { initFlowbite } from 'flowbite';
+
 import { MsgErroComponent } from './components/alertas/msg-erro/msg-erro.component';
 import { MsgSucessoComponent } from './components/alertas/msg-sucesso/msg-sucesso.component';
 
@@ -12,4 +15,8 @@ import { MsgSucessoComponent } from './components/alertas/msg-sucesso/msg-sucess
 })
 export class AppComponent {
   title = 'teste-angular-dezessete';
+
+  ngOnInit():void {
+    initFlowbite
+  }
 }

@@ -23,3 +23,5 @@ O tempo de compilação está muito mais rápido.
 ## Bibliotecas instaladas
 
 - Sweer Alert 2 : [https://sweetalert2.github.io/]
+
+- Tailwind Css + FlowBite: [https://flowbite.com/docs/getting-started/angular/]

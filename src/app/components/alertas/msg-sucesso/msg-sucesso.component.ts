@@ -12,8 +12,8 @@ import Swal from 'sweetalert2';
 export class MsgSucessoComponent {
   AlertaDeSucesso() {
     Swal.fire({
-      title: 'Good job!',
-      text: 'You clicked the button!',
+      title: 'Sucesso!',
+      text: 'Deu tudo certo!',
       icon: 'success',
     });
   }
