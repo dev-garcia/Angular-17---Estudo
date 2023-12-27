@@ -13,7 +13,7 @@ export class MsgSucessoComponent {
   AlertaDeSucesso() {
     Swal.fire({
       title: 'Sucesso!',
-      text: 'Deu tudo certo!',
+      text: 'Alterado!',
       icon: 'success',
     });
   }
